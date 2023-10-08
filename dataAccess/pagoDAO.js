@@ -36,7 +36,7 @@ class PagoDAO {
         }
     }
 
-    static async obtnerPagos(){
+    static async obtenerPagos(){
         try {
             return await Pago.find();
         } catch (error) {
