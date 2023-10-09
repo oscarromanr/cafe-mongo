@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const config = {
-    url: 'mongodb://localhost:27017//cafeMongo',
+    url: 'mongodb://127.0.0.1:27017/cafeMongo',
     options: {useNewUrlParser: true, useUnifiedTopology: true}
 };
 
