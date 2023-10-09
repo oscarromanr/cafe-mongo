@@ -28,7 +28,7 @@ class ProductoDAO {
         }
     }
 
-    static async obtenerProductoPorId(id){
+    static async obtenerProductoPorID(id){
         try {
             return await Producto.findById(id);
         } catch (error) {

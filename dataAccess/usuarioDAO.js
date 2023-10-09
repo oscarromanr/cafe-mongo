@@ -14,7 +14,7 @@ class UsuarioDAO {
 
     static async actualizarUsuario(id, usuarioData){
         try {
-            return await usuario.findByIdAndUpdate(id, usuarioData, {new: true});
+            return await Usuario.findByIdAndUpdate(id, usuarioData, {new: true});
         } catch (error) {
             throw error;
         }
@@ -22,15 +22,15 @@ class UsuarioDAO {
 
     static async eliminarUsuario(id){
         try {
-            return await usuario.findByIdAndRemove(id);
+            return await Usuario.findByIdAndRemove(id);
         } catch (error) {
             throw error;
         }
     }
 
-    static async obtenerUsuarioPorId(id){
+    static async obtenerUsuarioPorID(id){
         try {
-            return await usuario.findById(id);
+            return await Usuario.findById(id);
         } catch (error) {
             throw error;
         }
@@ -38,7 +38,7 @@ class UsuarioDAO {
 
     static async obtenerUsuarios(){
         try {
-            return await usuario.find();
+            return await Usuario.find();
         } catch (error) {
             throw error;
         }
