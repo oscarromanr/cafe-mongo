@@ -3,6 +3,12 @@ const db = require('./config/db');
 const UsuarioDAO = require('./dataAccess/usuarioDAO');
 const ProductoDAO = require('./dataAccess/productoDAO');
 
+const PagoDAO = require('./dataAccess/pagoDAO');
+const OrdenDAO = require('./dataAccess/ordenDAO');
+
+const CarritoDAO = require('./dataAccess/carritoDAO');
+const AdministradorDAO = require('./dataAccess/administradorDAO');
+
 db.conectar()
     .then(async () => {
         try {
@@ -408,6 +414,95 @@ db.conectar()
                 throw error;
             }
 
+            // Productos
+            try {
+                console.log('--------Pruebas de ProductosDAO--------')
+                const producto1 = {
+                    nombre: 'Cafe Organico Tostado 250 gr',
+                    descripcion: 'Presentación de 250 gramos. Cosechado en los altos de la Sierra de Zongolica, de manera artesanal por manos de indígenas nahuatl. Café Tatiaxca de grano arabiga y tueste medio, con gran aroma, cuerpo y acidez. Excelente calidad 100% Orgánico.',
+                    precio: 199.99,
+                    stock: 20,
+                    categoria: 'Cafe en grano',
+                    imagenurl: 'https://example.com/imagen-producto1.jpg'
+                };
+                const producto2 = {
+                    nombre: 'Cafe Organico Tostado 500 gr',
+                    descripcion: 'Presentación de 500 gramos. Cosechado en los altos de la Sierra de Zongolica, de manera artesanal por manos de indígenas nahuatl. Café Tatiaxca de grano arabiga y tueste medio, con gran aroma, cuerpo y acidez. Excelente calidad 100% Orgánico.',
+                    precio: 379.99,
+                    stock: 15,
+                    categoria: 'Cafe en grano',
+                    imagenurl: 'https://example.com/imagen-producto2.jpg'
+                };
+                const producto3 = {
+                    nombre: 'Cafe Organico Tostado 1 kg',
+                    descripcion: 'Presentación de 1000 gramos. Cosechado en los altos de la Sierra de Zongolica, de manera artesanal por manos de indígenas nahuatl. Café Tatiaxca de grano arabiga y tueste medio, con gran aroma, cuerpo y acidez. Excelente calidad 100% Orgánico.',
+                    precio: 699.99,
+                    stock: 32,
+                    categoria: 'Cafe en grano',
+                    imagenurl: 'https://example.com/imagen-producto3.jpg'
+                };
+                const producto4 = {
+                    nombre: 'Cupcakes de chocolate',
+                    descripcion: 'Pack de 12 cupcakes de chocolate con betun de queso crema y rodeado de chispas de chocolate, excelente opcion para compartir en cualquier evento familiar.',
+                    precio: 240,
+                    stock: 12,
+                    categoria: 'Cafe en grano',
+                    imagenurl: 'https://example.com/imagen-producto4.jpg'
+                };
+
+     
+                await ProductoDAO.crearProducto(producto1);
+                await ProductoDAO.crearProducto(producto2);
+                await ProductoDAO.crearProducto(producto3);
+                await ProductoDAO.crearProducto(producto4);
+
+                console.log('-> Productos creados correctamente')
+
+                console.log('---Busqueda de todos los productos---')
+                const productos = await ProductoDAO.obtenerProductos();
+                console.log('Lista de productos: ', productos)
+
+                console.log('---Busqueda de producto con id del primer producto---')
+
+                const productoBusqueda = await ProductoDAO.obtenerProductoPorID(productos[0]._id);
+
+                if (productoBusqueda != null) {
+                    console.log('Busqueda exitosa: ', productoBusqueda)
+
+                } else {
+                    console.log('No se encontró el producto con el ID especificado.')
+                }
+
+                console.log('---Actualización del producto 1---')
+
+                productoNuevo = {
+                    nombre: 'Cafe Organico Tostado 250 gr',
+                    descripcion: 'Presentación de 250 gr. Cosechado en los altos de la Sierra de Zongolica, de manera artesanal por manos de indígenas nahuatl. Café Tatiaxca de grano arabiga y tueste medio, con gran aroma, cuerpo y acidez. Excelente calidad 100% Orgánico.',
+                    precio: 170,
+                    stock: 35,
+                    categoria: 'Cafe en grano',
+                    imagenurl: 'https://example.com/imagen-producto1.jpg'
+                };
+                    
+
+                const productoActualizar = await ProductoDAO.actualizarProducto(productos[0]._id, productoNuevo);
+
+                if (productoActualizar != null) {
+                    console.log('Producto actualizado: ', productoActualizar)
+                } else {
+                    console.log('No se pudo actualizar el producto especificado.')
+                }
+
+                console.log('---Eliminación del 4to producto---')
+
+                const productoEliminar = await ProductoDAO.eliminarProducto(productos[3]._id);
+
+                console.log('Producto eliminado correctamente: ', productoEliminar)
+                console.log('---> Finalización de pruebas de Productos <---');
+            } catch (error) {
+                throw error;
+            }
+
             // Pagos
             try {
                 console.log('--------Pruebas de PagoDAO--------');
@@ -601,10 +696,11 @@ db.conectar()
                 throw error;
             }
 
-        db.desconectar();
-    } catch (error) {
-        console.error('Error en las pruebas:', error);
-    }
-        }).catch (err => {
-    console.error('Error en la conexión a la base de datos:', err);
-})
+            db.desconectar();
+        } catch (error) {
+            console.error('Error en las pruebas:', error);
+        }
+    }).catch(err => {
+        console.error('Error en la conexión a la base de datos:', err);
+    })
+
