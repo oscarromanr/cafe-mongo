@@ -2,8 +2,10 @@ const mongoose = require('mongoose');
 const db = require('./config/db');
 const UsuarioDAO = require('./dataAccess/usuarioDAO');
 const ProductoDAO = require('./dataAccess/productoDAO');
+
 const PagoDAO = require('./dataAccess/pagoDAO');
 const OrdenDAO = require('./dataAccess/ordenDAO');
+
 const CarritoDAO = require('./dataAccess/carritoDAO');
 const AdministradorDAO = require('./dataAccess/administradorDAO');
 
@@ -412,7 +414,6 @@ db.conectar()
                 throw error;
             }
 
-
             // Productos
             try {
                 console.log('--------Pruebas de ProductosDAO--------')
@@ -702,3 +703,4 @@ db.conectar()
     }).catch(err => {
         console.error('Error en la conexión a la base de datos:', err);
     })
+
