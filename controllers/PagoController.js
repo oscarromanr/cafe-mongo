@@ -7,7 +7,7 @@ class PagoController {
             const {idUsuario, monto, metodoPago, fechaPago} = req.body;
 
             if(!idUsuario || !monto || !metodoPago || !fechaPago){
-                next(new AppError('No puede haber campos vacios', 404));
+                return next(new AppError('No puede haber campos vacios', 404));
             }
 
             const pagoData = {idUsuario, monto, metodoPago, fechaPago};
@@ -27,7 +27,7 @@ class PagoController {
             const pago = await PagoDAO.obtenerPagoPorId(id);
 
             if(!pago){
-                next(new AppError('No se logro obtener el pago', 404))
+                return next(new AppError('No se logro obtener el pago', 404))
             }
 
             res.status(200).json(pago);
@@ -54,7 +54,7 @@ class PagoController {
             const pago = await PagoDAO.actualizarPago(id, pagoData);
 
             if(!pago){
-                next(new AppError('No se encontro el pago', 404))
+                return next(new AppError('No se encontro el pago', 404))
             }
 
             res.status(200).json(pago);
@@ -70,7 +70,7 @@ class PagoController {
             const pago = await PagoDAO.eliminarPago(id);
 
             if(!pago){
-                next(new AppError('No se encontro el pago', 404))
+                return next(new AppError('No se encontro el pago', 404))
             }
 
             res.status(200).json(pago);

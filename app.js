@@ -13,8 +13,11 @@ app.use(morgan('combined'));
 
 // Rutas
 const pagoRouter = require('./routes/PagoRouter');
+const ordenRouter = require('./routes/OrdenRouter');
 
 app.use('/api/pagos', pagoRouter);
+
+app.use('/api/ordenes', ordenRouter);
 
 app.all('*', (req, res, next) => {
     next(new AppError('No se pudo acceder a la ruta', 404));
