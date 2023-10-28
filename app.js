@@ -14,10 +14,16 @@ app.use(morgan('combined'));
 // Rutas
 const pagoRouter = require('./routes/PagoRouter');
 const ordenRouter = require('./routes/OrdenRouter');
+const usuarioRouter = require('./routes/UsuarioRouter');
+const productoRouter = require('./routes/ProductoRouter');
 
 app.use('/api/pagos', pagoRouter);
 
 app.use('/api/ordenes', ordenRouter);
+
+app.use('/api/usuarios', usuarioRouter);
+
+app.use('/api/productos', productoRouter);
 
 app.all('*', (req, res, next) => {
     next(new AppError('No se pudo acceder a la ruta', 404));
