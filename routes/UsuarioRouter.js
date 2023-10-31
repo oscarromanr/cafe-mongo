@@ -1,15 +1,18 @@
 const express = require('express');
 const router = express.Router();
 const UsuarioController = require('../controllers/UsuarioController');
+const { verificarToken } = require('../auth/authentication');
 
 router.post('/', UsuarioController.crearUsuario);
+
+router.post('/:id', UsuarioController.inicioSesion);
 
 router.get('/', UsuarioController.obtenerUsuarios);
 
 router.get('/:id', UsuarioController.obtenerUsuarioPorId);
 
-router.put('/:id', UsuarioController.actualizarUsuario);
+router.put('/:id', verificarToken, UsuarioController.actualizarUsuario);
 
-router.delete('/:id', UsuarioController.eliminarUsuario);
+router.delete('/:id', verificarToken, UsuarioController.eliminarUsuario);
 
 module.exports = router;

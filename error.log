@@ -18,3 +18,9 @@
 {"level":"error","message":"No se logro obtener el producto"}
 {"level":"error","message":"No se logro obtener el producto"}
 {"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'rol')"}

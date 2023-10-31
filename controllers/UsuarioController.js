@@ -1,5 +1,6 @@
 const UsuarioDAO = require('../dataAccess/usuarioDAO');
 const { AppError } = require('../utils/appError');
+const {generarToken} = require('../auth/authentication')
 
 class UsuarioController {
     static async crearUsuario(req, res, next) {
@@ -17,6 +18,28 @@ class UsuarioController {
             res.status(201).json({ message: 'Usuario creado exitosamente', usuario });
         } catch (error) {
             next(new AppError('Error al crear un Usuario', 500))
+        }
+    }
+
+    static async inicioSesion(req, res, next){
+        try {
+            const id = req.params.id;
+            
+            const usuario = await UsuarioDAO.obtenerUsuarioPorID(id)
+
+            if (!usuario) {
+                return next(new AppError('No se encontro el usuario', 404));
+            }
+            
+            const token = await generarToken(usuario);
+
+            res.status(200).json({
+                "message": "Token generado con éxito para usuario "+usuario.rol,
+                "token": token
+            });
+
+        } catch (error) {
+            next(new AppError('Error al iniciar sesion', 500))
         }
     }
 
