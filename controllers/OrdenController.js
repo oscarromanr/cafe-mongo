@@ -14,7 +14,7 @@ class OrdenController {
 
             const orden = await OrdenDAO.crearOrden(ordenData);
 
-            res.status(200).json(orden);
+            res.status(201).json(orden);
         } catch (error) {
             next(new AppError('Error al crear orden', 500))
         }
