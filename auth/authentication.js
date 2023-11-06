@@ -1,13 +1,20 @@
 const jwt = require('jsonwebtoken');
 require('dotenv').config({ path: '../variables.env' });
-const secretKey = process.env.LLAVESECRETA;
+const secretKey = process.env.llaveSecreta;
 
 async function verificarToken(req, res, next) {
     const bearerHeader = req.headers['authorization'];
     if (typeof bearerHeader !== 'undefined') {
         const bearerToken = bearerHeader.split(" ")[1];
         req.token = bearerToken;
-        next();
+        jwt.verify(req.token, secretKey, (error, authData) => {
+            if(error){
+                res.sendStatus(403);
+            } else {
+                req.authData = authData;
+                next();
+            }
+        })
     } else {
         return res.status(403).json({ mensaje: 'Token no proporcionado' });
     }
@@ -22,6 +29,20 @@ function verificarRolUsuario(rolRequerido) {
             res.status(403).json({ mensaje: 'Acceso no autorizado a usuarios de tipo ' + usuario.rol });
         }
     };
+}
+
+function verificarRespuesta(req, res, next){
+    jwt.verify(req.token, secretKey, (error, authData) => {
+        if(error){
+            res.sendStatus(403);
+        } else {
+            res.json({
+                mensaje: "Se realizo la operacion",
+                authData: authData
+            })
+            next()
+        }
+    })
 }
 
 // Método para generar un token JWT
@@ -40,5 +61,6 @@ async function generarToken(usuario) {
 module.exports = {
     verificarToken,
     generarToken,
-    verificarRolUsuario
+    verificarRolUsuario,
+    verificarRespuesta
 };

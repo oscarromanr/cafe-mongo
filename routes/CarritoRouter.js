@@ -5,9 +5,9 @@ const { verificarToken } = require('../auth/authentication');
 
 router.post('/', verificarToken, CarritoController.crearCarrito);
 
-router.get('/', CarritoController.obtenerCarritos);
+router.get('/', verificarToken, CarritoController.obtenerCarritos);
 
-router.get('/:id', CarritoController.obtenerCarritoPorId);
+router.get('/:id', verificarToken, CarritoController.obtenerCarritoPorId);
 
 router.put('/:id', verificarToken, CarritoController.actualizarCarrito);
 
