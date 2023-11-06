@@ -4,13 +4,13 @@ const { AppError } = require('../utils/appError');
 class OrdenController {
     static async crearOrden(req, res, next){
         try {
-            const {idUsuario, fechaOrden, estado, total, prodcutos, direccionEnvio, metodoPago} = req.body;
+            const {idUsuario, fechaOrden, estado, total, productos, direccionEnvio, metodoPago} = req.body;
 
-            if(!idUsuario || !fechaOrden || !estado || !total || prodcutos.length === 0 || !direccionEnvio || !metodoPago){
+            if(!idUsuario || !fechaOrden || !estado || !total || productos.length === 0 || !direccionEnvio || !metodoPago){
                 return next(new AppError('Faltan campos por llenar', 404));
             }
 
-            const ordenData = {idUsuario, fechaOrden, estado, total, prodcutos, direccionEnvio, metodoPago}
+            const ordenData = {idUsuario, fechaOrden, estado, total, productos, direccionEnvio, metodoPago}
 
             const orden = await OrdenDAO.crearOrden(ordenData);
 

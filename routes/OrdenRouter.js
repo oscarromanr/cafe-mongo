@@ -5,9 +5,9 @@ const { verificarToken } = require('../auth/authentication');
 
 router.post('/', verificarToken, OrdenController.crearOrden);
 
-router.get('/', OrdenController.obtenerOrdenes);
+router.get('/', verificarToken, OrdenController.obtenerOrdenes);
 
-router.get('/:id', OrdenController.obtenerOrdenPorId);
+router.get('/:id', verificarToken, OrdenController.obtenerOrdenPorId);
 
 router.put('/:id', verificarToken, OrdenController.actualizarOrdenes);
 

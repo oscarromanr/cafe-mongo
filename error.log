@@ -24,3 +24,11 @@
 {"level":"error","message":"Error al crear orden"}
 {"level":"error","message":"Error al crear orden"}
 {"level":"error","message":"Cannot read properties of undefined (reading 'rol')"}
+{"level":"error","message":"jwt is not defined"}
+{"level":"error","message":"Error al crear un pago"}
+{"level":"error","message":"Error al crear un pago"}
+{"level":"error","message":"req.headers.split is not a function"}
+{"level":"error","message":"Error al crear un pago"}
+{"level":"error","message":"Error al crear un pago"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
