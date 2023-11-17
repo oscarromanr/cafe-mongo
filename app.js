@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+const cors = require('cors');
 const { globalHandlerError, AppError } = require('./utils/appError');
 require('dotenv').config({path: './variables.env'});
 const db = require('./config/db');
@@ -10,6 +11,7 @@ db.conectar();
 
 app.use(bodyParser.json());
 app.use(morgan('combined'));
+app.use(cors());
 
 // Rutas
 const pagoRouter = require('./routes/PagoRouter');
