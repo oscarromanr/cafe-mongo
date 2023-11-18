@@ -1,15 +1,16 @@
 const express = require('express');
 const router = express.Router();
 const OrdenController = require('../controllers/OrdenController');
+const { verificarToken } = require('../auth/authentication');
 
-router.post('/', OrdenController.crearOrden);
+router.post('/', verificarToken, OrdenController.crearOrden);
 
-router.get('/', OrdenController.obtenerOrdenes);
+router.get('/', verificarToken, OrdenController.obtenerOrdenes);
 
-router.get('/:id', OrdenController.obtenerOrdenPorId);
+router.get('/:id', verificarToken, OrdenController.obtenerOrdenPorId);
 
-router.put('/:id', OrdenController.actualizarOrdenes);
+router.put('/:id', verificarToken, OrdenController.actualizarOrdenes);
 
-router.delete('/:id', OrdenController.eliminarOrden);
+router.delete('/:id', verificarToken, OrdenController.eliminarOrden);
 
 module.exports = router;
