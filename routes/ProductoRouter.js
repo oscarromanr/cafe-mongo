@@ -5,12 +5,18 @@ const { verificarToken } = require('../auth/authentication');
 
 router.post('/', verificarToken, ProductoController.crearProducto);
 
-router.get('/', verificarToken, ProductoController.obtenerProductos);
+//router.post('/', ProductoController.crearProducto);
 
-router.get('/:id', verificarToken, ProductoController.obtenerProductoPorId);
+router.get('/', ProductoController.obtenerProductos);
+
+router.get('/:id', ProductoController.obtenerProductoPorId);
 
 router.put('/:id', verificarToken, ProductoController.actualizarProducto);
 
 router.delete('/:id', verificarToken, ProductoController.eliminarProducto);
+
+//router.put('/:id', ProductoController.actualizarProducto);
+
+//router.delete('/:id', ProductoController.eliminarProducto);
 
 module.exports = router;
