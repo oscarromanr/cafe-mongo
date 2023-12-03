@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config({ path: '../variables.env' });
 
 const config = {
-    url: process.env.URL_MONGO,
+    url: process.env.URL_MONGO || 'mongodb://127.0.0.1:27017/cafeMongo',
     options: {useNewUrlParser: true, useUnifiedTopology: true}
 };
 

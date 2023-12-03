@@ -11,6 +11,8 @@ router.get('/', UsuarioController.obtenerUsuarios);
 
 router.get('/:id', UsuarioController.obtenerUsuarioPorId);
 
+router.get('/email/:email', UsuarioController.obtenerUsuarioPorCorreo);
+
 router.put('/:id', verificarToken, UsuarioController.actualizarUsuario);
 
 router.delete('/:id', verificarToken, UsuarioController.eliminarUsuario);

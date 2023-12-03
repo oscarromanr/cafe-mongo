@@ -1,16 +1,17 @@
 const UsuarioDAO = require('../dataAccess/usuarioDAO');
 const { AppError } = require('../utils/appError');
-const {generarToken} = require('../auth/authentication')
+const { generarToken } = require('../auth/authentication')
 
 class UsuarioController {
     static async crearUsuario(req, res, next) {
         try {
-            const { nombre, email, password, rol, calle, numerocasa, colonia, telefono } = req.body;
+            const { nombre, email, password, calle, numerocasa, colonia, telefono } = req.body;
 
-            if (!nombre || !email || !password || !rol || !calle || !numerocasa || !colonia || !telefono) {
+            if (!nombre || !email || !password || !calle || !numerocasa || !colonia || !telefono) {
                 return next(new AppError('No puede haber campos vacios', 404));
             }
 
+            const rol = "Usuario";
             const usuarioData = { nombre, email, password, rol, calle, numerocasa, colonia, telefono };
 
             const usuario = await UsuarioDAO.crearUsuario(usuarioData);
@@ -34,7 +35,7 @@ class UsuarioController {
             const token = await generarToken(usuario);
 
             res.status(200).json({
-                "message": "Token generado con éxito para usuario "+usuario.rol,
+                "message": "Token generado con éxito para usuario " + usuario.rol,
                 "token": token
             });
 
@@ -56,6 +57,22 @@ class UsuarioController {
             res.status(200).json({ message: 'Usuario obtenido exitosamente', usuario });
         } catch (error) {
             next(new AppError('No se logró obtener el usuario', 404))
+        }
+    }
+
+    static async obtenerUsuarioPorCorreo(req, res, next) {
+        try {
+            const email = req.params.email;
+
+            const usuario = await UsuarioDAO.obtenerUsuarioPorCorreo(email);
+
+            if (!usuario) {
+                return next(new AppError('No se logró obtener el usuario por correo', 404))
+            }
+
+            res.status(200).json({ message: 'Usuario obtenido exitosamente', usuario });
+        } catch (error) {
+            next(new AppError('No se logró obtener el usuario por correo', 404))
         }
     }
 

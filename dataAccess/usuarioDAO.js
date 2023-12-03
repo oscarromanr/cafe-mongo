@@ -36,6 +36,14 @@ class UsuarioDAO {
         }
     }
 
+    static async obtenerUsuarioPorCorreo(correo){
+        try {
+            return await Usuario.findOne({email: correo});
+        } catch (error) {
+            throw error;
+        }
+    }
+
     static async obtenerUsuarios(){
         try {
             return await Usuario.find();
