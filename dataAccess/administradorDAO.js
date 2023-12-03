@@ -28,9 +28,17 @@ class AdministradorDAO {
         }
     }
 
-    static async obtenerAdministradorPorID(id){
+    static async obtenerAdministradorPorId(id){
         try {
             return await Administrador.findById(id);
+        } catch (error) {
+            throw error;
+        }
+    }
+
+    static async obtenerAdministradorPorCorreo(email){
+        try {
+            return await Administrador.findOne({email: email});
         } catch (error) {
             throw error;
         }

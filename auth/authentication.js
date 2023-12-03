@@ -45,10 +45,32 @@ function verificarRespuesta(req, res, next){
     })
 }
 
+function verificarRolAdministrador(rolRequerido) {
+    return (req, res, next) => {
+        const administrador = req.administrador;
+        if (administrador && administrador.rol === rolRequerido) {
+            next();
+        } else {
+            res.status(403).json({ mensaje: 'Acceso no autorizado a administradores de tipo ' + administrador.rol });
+        }
+    };
+}
+
+async function generarTokenAdministrador(admin){
+    const payload = {
+        idAdministrador: admin._id,
+        rol: admin.rol
+    };
+
+    const token = jwt.sign(payload, secretKey, { expiresIn: '24h' });
+
+    return token;
+}
+
 // Método para generar un token JWT
 async function generarToken(usuario) {
     const payload = {
-        idUsuario: usuario.idUsuario,
+        idUsuario: usuario._id,
         rol: usuario.rol
     };
 
@@ -62,5 +84,7 @@ module.exports = {
     verificarToken,
     generarToken,
     verificarRolUsuario,
-    verificarRespuesta
+    verificarRespuesta,
+    verificarRolAdministrador,
+    generarTokenAdministrador
 };

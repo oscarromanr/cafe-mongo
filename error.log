@@ -32,3 +32,1041 @@
 {"level":"error","message":"Error al crear un pago"}
 {"level":"error","message":"Error al crear orden"}
 {"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"Unexpected token , in JSON at position 420"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"Unexpected token , in JSON at position 416"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"No se encontro el usuario"}
+{"level":"error","message":"No puede haber campos vacios"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"Error al eliminar el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No puede haber campos vacios"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No puede haber campos vacios"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No puede haber campos vacios"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"No se encontro el usuario"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion: AdministradorDAO.obtenerAdministradorPorId is not a function"}
+{"level":"error","message":"Error al iniciar sesion: AdministradorDAO.obtenerAdministradorPorId is not a function"}
+{"level":"error","message":"No se encontro el administrador"}
+{"level":"error","message":"No se logró obtener el administrador por correo"}
+{"level":"error","message":"No se logró obtener el administrador por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el administrador por correo"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el administrador por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se pudo encontrar el administrador"}

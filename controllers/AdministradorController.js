@@ -1,5 +1,6 @@
 const AdministradorDAO = require('../dataAccess/administradorDAO');
 const { AppError } = require('../utils/appError');
+const { generarTokenAdministrador } = require('../auth/authentication')
 
 class AdministradorController {
     static async crearAdministrador(req, res, next){
@@ -20,19 +21,57 @@ class AdministradorController {
         }
     }
 
+    static async inicioSesion(req, res, next){
+        try {
+            const id = req.params.id;
+            
+            const administrador = await AdministradorDAO.obtenerAdministradorPorId(id)
+
+            if (!administrador) {
+                return next(new AppError('No se encontro el administrador', 404));
+            }
+            
+            const token = await generarTokenAdministrador(administrador);
+
+            res.status(200).json({
+                "message": "Token generado con éxito para administrador " + administrador.rol,
+                "token": token
+            });
+            
+        } catch (error) { 
+            next(new AppError('Error al iniciar sesion: ' + error.message, 500))
+        }
+    }
+
     static async obtenerAdministradorPorId(req, res, next){
         try {
             const id = req.params.id;
 
-            const administrador = await AdministradorDAO.obtenerAdministradorPorID(id);
+            const administrador = await AdministradorDAO.obtenerAdministradorPorId(id);
 
             if (!administrador){
-                return next(new AppError('No se pudo encontrar el administrador', 404))
+                return next(new AppError('No se logró obtener el administrador', 404))
             }
 
-            res.status(201).json(administrador);
+            res.status(200).json({ message: 'Administrador obtenido exitosamente', administrador });
         } catch (error) {
             next(new AppError('No se pudo encontrar el administrador', 404))
+        }
+    }
+
+    static async obtenerAdministradorPorCorreo(req, res, next) {
+        try {
+            const email = req.params.email;
+
+            const administrador = await AdministradorDAO.obtenerAdministradorPorCorreo(email);
+
+            if (!administrador) {
+                return next(new AppError('No se logró obtener el administrador por correo', 404))
+            }
+
+            res.status(200).json({ message: 'Administrador obtenido exitosamente', administrador });
+        } catch (error) {
+            next(new AppError('No se logró obtener el administrador por correo', 404))
         }
     }
 
