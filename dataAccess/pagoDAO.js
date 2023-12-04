@@ -28,7 +28,7 @@ class PagoDAO {
         }
     }
 
-    static async obtenerPagoPorId(id){
+    static async obtenerPagosPorId(id){
         try {
             return await Pago.findById(id);
         } catch (error) {

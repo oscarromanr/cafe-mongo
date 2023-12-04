@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const UsuarioController = require('../controllers/UsuarioController');
-const { verificarToken } = require('../auth/authentication');
+const { verificarToken, verificarTokenUsuarioAdministrador } = require('../auth/authentication');
 
 router.post('/', UsuarioController.crearUsuario);
 
@@ -15,6 +15,6 @@ router.get('/email/:email', UsuarioController.obtenerUsuarioPorCorreo);
 
 router.put('/:id', verificarToken, UsuarioController.actualizarUsuario);
 
-router.delete('/:id', verificarToken, UsuarioController.eliminarUsuario);
+router.delete('/:id', verificarTokenUsuarioAdministrador, UsuarioController.eliminarUsuario);
 
 module.exports = router;

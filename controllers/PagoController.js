@@ -20,11 +20,11 @@ class PagoController {
         }
     }
 
-    static async obtenerPagoPorId(req, res, next){
+    static async obtenerPagosPorId(req, res, next){
         try {
             const id = req.params.id;
 
-            const pago = await PagoDAO.obtenerPagoPorId(id);
+            const pago = await PagoDAO.obtenerPagosPorId(id);
 
             if(!pago){
                 return next(new AppError('No se logro obtener el pago', 404))

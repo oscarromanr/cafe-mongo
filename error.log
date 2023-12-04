@@ -1070,3 +1070,13 @@
 {"level":"error","message":"No se pudo encontrar el administrador"}
 {"level":"error","message":"No se pudo encontrar el administrador"}
 {"level":"error","message":"No se pudo encontrar el administrador"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logro obtener el producto"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se logró obtener el usuario"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}

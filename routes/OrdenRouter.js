@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const OrdenController = require('../controllers/OrdenController');
-const { verificarToken } = require('../auth/authentication');
+const { verificarToken, verificarTokenAdministrador } = require('../auth/authentication');
 
 router.post('/', verificarToken, OrdenController.crearOrden);
 
-router.get('/', verificarToken, OrdenController.obtenerOrdenes);
+router.get('/', verificarTokenAdministrador, OrdenController.obtenerOrdenes);
 
 router.get('/:id', verificarToken, OrdenController.obtenerOrdenPorId);
 

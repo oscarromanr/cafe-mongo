@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const AdministradorController = require('../controllers/AdministradorController');
-const { verificarToken } = require('../auth/authentication');
+const { verificarTokenAdministrador } = require('../auth/authentication');
 
 router.post('/', AdministradorController.crearAdministrador);
 
@@ -13,8 +13,8 @@ router.get('/:id', AdministradorController.obtenerAdministradorPorId);
 
 router.get('/email/:email', AdministradorController.obtenerAdministradorPorCorreo);
 
-router.put('/:id', verificarToken, AdministradorController.actualizarAdministrador);
+router.put('/:id', verificarTokenAdministrador, AdministradorController.actualizarAdministrador);
 
-router.delete('/:id', verificarToken, AdministradorController.eliminarAdministrador);
+router.delete('/:id', verificarTokenAdministrador, AdministradorController.eliminarAdministrador);
 
 module.exports = router;
