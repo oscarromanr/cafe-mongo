@@ -14,8 +14,9 @@ class OrdenController {
 
             const orden = await OrdenDAO.crearOrden(ordenData);
 
-            res.status(201).json(orden);
+            res.status(201).json({ message: 'Orden creada exitosamente', orden});
         } catch (error) {
+            console.log("Error de creacion, ", error);
             next(new AppError('Error al crear orden', 500))
         }
     }
@@ -33,6 +34,21 @@ class OrdenController {
             res.status(201).json(orden);
         } catch (error) {
             next(new AppError('No se pudo encontrar la orden', 404))
+        }
+    }
+
+    static async obtenerOrdenesPorUsuario(req, res, next){
+        try {
+            const id = req.params.id;
+
+            const ordenes = await OrdenDAO.obtenerOrdenesPorUsuario(id);
+
+            if (!ordenes){
+                return next(new AppError('No se pudo encontrar las ordenes', 404))
+            }
+            res.status(201).json({ message: 'Ordenes obtenidas exitosamente', ordenes});
+        } catch (error) {
+            next(new AppError('No se pudo encontrar las ordenes', 404))
         }
     }
 
@@ -72,8 +88,7 @@ class OrdenController {
             if(!orden){
                 return next(new AppError('No se encontro la orden', 404))
             }
-
-            res.status(200).json(orden);
+            res.status(200).json({ message: 'Orden eliminada exitosamente', orden });
         } catch (error) {
             next(new AppError('Error al eliminar la orden', 500))
         }

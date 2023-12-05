@@ -1080,3 +1080,25 @@
 {"level":"error","message":"No se pudo acceder a la ruta"}
 {"level":"error","message":"No se logró obtener el usuario"}
 {"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Error al crear orden"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"Faltan campos por llenar"}
+{"level":"error","message":"No se pudo encontrar las ordenes"}
+{"level":"error","message":"No se pudo acceder a la ruta"}
+{"level":"error","message":"No se pudo encontrar las ordenes"}
+{"level":"error","message":"No se pudo encontrar las ordenes"}
+{"level":"error","message":"No se pudo encontrar las ordenes"}
+{"level":"error","message":"No se pudo encontrar la orden"}
+{"level":"error","message":"No se pudo encontrar la orden"}
+{"level":"error","message":"No se pudo encontrar la orden"}
+{"level":"error","message":"No se pudo encontrar la orden"}
+{"level":"error","message":"No se pudo encontrar la orden"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}
+{"level":"error","message":"No se logró obtener el usuario por correo"}

@@ -60,8 +60,12 @@ async function verificarToken(req, res, next) {
                 }
                 
                 const idUsuario = decoded && decoded.idUsuario;
-                if (idUsuario !== req.params.id) {
-                    return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario a eliminar no coincide con las credenciales proporcionadas'});
+                if (req.method === 'GET' && req.params.id && idUsuario !== req.params.id) {
+                    return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario seleccionado no coincide con las credenciales proporcionadas'});
+                }
+                
+                if (req.method === 'POST' && req.body.idUsuario && idUsuario !== req.body.idUsuario) {
+                    return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario en el cuerpo de la petición no coincide con las credenciales proporcionadas'});
                 }
                     
                 req.authData = authData;
@@ -94,8 +98,12 @@ async function verificarTokenUsuarioAdministrador(req, res, next) {
                 }
                 if (rol === 'Usuario') {
                     const idUsuario = decoded && decoded.idUsuario;
-                    if (idUsuario !== req.params.id) {
-                        return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario a eliminar no coincide con las credenciales proporcionadas'});
+                    if (req.method === 'GET' && req.params.id && idUsuario !== req.params.id) {
+                        return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario seleccionado no coincide con las credenciales proporcionadas'});
+                    }
+                    
+                    if (req.method === 'POST' && req.body.idUsuario && idUsuario !== req.body.idUsuario) {
+                        return res.status(403).json({ mensaje: 'Acceso no autorizado al usuario, el id del usuario en el cuerpo de la petición no coincide con las credenciales proporcionadas'});
                     }
                 }
                     

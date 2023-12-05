@@ -7,7 +7,9 @@ router.post('/', verificarToken, OrdenController.crearOrden);
 
 router.get('/', verificarTokenAdministrador, OrdenController.obtenerOrdenes);
 
-router.get('/:id', verificarToken, OrdenController.obtenerOrdenPorId);
+router.get('/:id', OrdenController.obtenerOrdenPorId);
+
+router.get('/usuario/:id', verificarToken, OrdenController.obtenerOrdenesPorUsuario);
 
 router.put('/:id', verificarToken, OrdenController.actualizarOrdenes);
 

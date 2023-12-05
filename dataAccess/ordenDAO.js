@@ -36,6 +36,14 @@ class OrdenDAO {
         }
     }
 
+    static async obtenerOrdenesPorUsuario(idUsuario){
+        try {
+            return await Orden.find({idUsuario: idUsuario});
+        } catch (error) {
+            throw error;
+        }
+    }
+
     static async obtenerOrdenes(){
         try {
             return await Orden.find();
